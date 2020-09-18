@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #me {
+            color: blue;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <p>Hello, World</p>                                                                                 
+    <h5>hello mum</h5>
+    <h1>
+        This is crap
+
+    </h1>
+    <p id="me">my favourite is blue</p>
+    <button id="btn">click me</button>
+    <script>
+        document.getElementById('btn').addEventListener('click', click)
+        function click() {
+            console.log('click')
+            document.getElementById('me').style.color = 'red'
+            
+        }
+        
+    </script>
+</body>
+</html>
